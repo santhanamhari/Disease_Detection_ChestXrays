@@ -188,7 +188,7 @@ class ResNet(nn.Module):
     '''
         The resnet implementation is modified from the official pytorch implementation
     '''
-    def __init__(self, args, block, layers, num_classes=1000, init_fill_conv=1.0,
+    def __init__(self, args, block, layers, num_classes=2, init_fill_conv=1.0,
             scaling=0.75):
         self.inplanes = int(64 * scaling)
         super(ResNet, self).__init__()
