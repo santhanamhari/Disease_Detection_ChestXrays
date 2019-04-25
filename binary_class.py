@@ -43,6 +43,7 @@ count_Training = 0
 myValidation = []
 count_Validation = 0
 
+# dense or sparse 
 neural_net = str(sys.argv[4])
 neural_net_path = neural_net + '.pth.tar'
 
